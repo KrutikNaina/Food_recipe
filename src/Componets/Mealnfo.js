@@ -23,7 +23,7 @@ const Mealnfo = () => {
                     <div className='mealInfo'>
                         <img src={info.strMealThumb}/>
                         <div className='info'>
-                            <h1>Recipe Detail</h1>
+                            <h1>Recipe Details</h1>
                             <button>{info.strMeal}</button>
                             <h3>Intruction</h3>
                             <p>{info.strInstructions}</p>
