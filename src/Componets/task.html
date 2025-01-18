@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div {
+            border: 2px solid;
+            height: 400px;
+            width: 400px;
+        }
+
+       div > div {
+            position: relative;
+            height: 100px;
+            width: 100px;
+            border: 2px solid;
+            margin: 15px;
+            float: right;
+            display: inline-block;
+            margin-right: 14.3px;
+            margin-top: 55px;
+        }
+        
+        .d1 {
+            animation-name: krutik;
+            animation-duration: 4s;
+            animation-fill-mode: forwards;
+            background-color: blueviolet;
+        }
+
+        @keyframes krutik {
+            0% { left: 0px; top: 0px;
+            }
+            100% { left: -265px; top: 00px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>my name is krutik</h1>
+
+        <div class="div">
+        <div class="d1"></div>
+        <div class="d2"></div>
+        <div class="d3"></div>
+        <div class="d4"></div>
+        <div class="d5"></div>
+        <div class="d6"></div>
+        </div>
+</body>
+</html>
